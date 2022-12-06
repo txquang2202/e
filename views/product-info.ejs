@@ -118,7 +118,7 @@
                         </div>
 
                         <div class="d-flex products justi fy-content-between">
-                            <% for(var i=0; i< 4; i++) {%>
+                            <% for(var i=0; i< relateProducts.length; i++) {%>
                                 <div class="item" onclick="chooseProduct('<%= relateProducts[i].IDPRODUCT %>')">
                                     <div class="img text-center">
                                         <img src="<%= relateProducts[i].LINK%>" alt="">
